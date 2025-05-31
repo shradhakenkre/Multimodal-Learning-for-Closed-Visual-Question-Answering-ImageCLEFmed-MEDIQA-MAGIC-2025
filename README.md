@@ -21,7 +21,7 @@ We approached this with a **multi-stage pipeline** combining powerful **image fe
 
 ## 📦 Dataset
 
-- **Source**: [ImageCLEF VQA-Med 2025 dataset](https://www.imageclef.org/2025/medical/vqa)
+- **Source**: [ImageCLEF VQA-Med 2025 dataset]([https://www.imageclef.org/2025/medical/vqa](https://ai4media-bench.aimultimedialab.ro/competitions/62/))
 - **Structure**:
   - 4,000+ dermatology cases
   - Each case includes:
@@ -97,7 +97,7 @@ Metrics reported:
 |---------------------------|-------|
 | Overall Soft Accuracy     | 56.78% |
 | Best CQID Performance     | CQID020 ("label of affected area") |
-| Model Rank                | 12|
+| Rank                | 12|
 
 ---
 
