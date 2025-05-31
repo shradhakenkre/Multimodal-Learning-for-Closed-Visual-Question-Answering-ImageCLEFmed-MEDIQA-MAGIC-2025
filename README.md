@@ -78,9 +78,7 @@ Final image embedding = Concatenation of `ViT` features + `LBP` histogram vector
 
 Evaluation is done via **soft accuracy** on partial matches:
 
-\[
-\text{Accuracy}_{\text{soft}} = \frac{|\text{Prediction} \cap \text{Ground Truth}|}{\max(|\text{Prediction}|, |\text{Ground Truth}|)}
-\]
+**Soft Accuracy** = `|Prediction ∩ Ground Truth| / max(|Prediction|, |Ground Truth|)`
 
 A score like `0.625` indicates partial correctness (e.g., 5 correct labels out of 8 expected).
 
