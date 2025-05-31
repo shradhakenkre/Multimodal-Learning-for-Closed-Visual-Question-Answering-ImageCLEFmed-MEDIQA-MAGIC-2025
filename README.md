@@ -21,7 +21,7 @@ We approached this with a **multi-stage pipeline** combining powerful **image fe
 
 ## 📦 Dataset
 
-- **Source**: [ImageCLEF VQA-Med 2025 dataset]([https://www.imageclef.org/2025/medical/vqa](https://ai4media-bench.aimultimedialab.ro/competitions/62/))
+- **Source**: [ImageCLEF VQA-Med 2025 dataset](https://ai4media-bench.aimultimedialab.ro/competitions/62/)
 - **Structure**:
   - 4,000+ dermatology cases
   - Each case includes:
@@ -126,4 +126,23 @@ pip install -r requirements.txt
 # Run notebook or training script
 jupyter notebook Imageclef_vqa_2025.ipynb
 
+```
+
+
+
+
+
+## 📚 Citation
+
+If you use this work or the dataset, please cite the official CLEF proceedings:
+
+```bibtex
+@inproceedings{imageclef2025,
+  title     = {Overview of the ImageCLEF 2025 Visual Question Answering Task},
+  author    = {Abacha, Asma Ben and Hasan, Sadid A. and Demner-Fushman, Dina and Müller, Henning and Vasuki, V. and Liu, Xiaoling and others},
+  booktitle = {Working Notes of CLEF 2025 – Conference and Labs of the Evaluation Forum},
+  year      = {2025},
+  address   = {Avignon, France},
+  publisher = {CEUR Workshop Proceedings}
+}
 
