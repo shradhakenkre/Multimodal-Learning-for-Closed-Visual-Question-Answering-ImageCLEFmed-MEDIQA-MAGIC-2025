@@ -1,4 +1,4 @@
-# 🧠 VQA-Med 2025: Visual Question Answering on Skin Conditions using ViT + LBP + T5
+# 🧠 VQA-Med 2025: Visual Question Answering on Skin Conditions using ViT + LBP + BERT
 
 Welcome to repository for the **ImageCLEF VQA-Med 2025 Challenge**, where we developed a **multi-modal deep learning pipeline** to solve **medical Visual Question Answering (VQA)** for dermatological cases. This repository contains the full codebase, methodology, and training scripts for our submission.
 
