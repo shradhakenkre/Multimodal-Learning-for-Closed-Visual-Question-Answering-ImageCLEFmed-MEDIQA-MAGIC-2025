@@ -50,11 +50,16 @@ We used a **hybrid deep learning architecture** combining:
 
 Final image embedding = Concatenation of `ViT` features + `LBP` histogram vector.
 
-### 📖 Text Generator
-3. **T5 (Text-to-Text Transfer Transformer)**
-   - Task: "Question → Answer" generation
-   - Input: `[Question] + [Image Features]`
-   - Output: Text answer in natural language
+### 📖 Text Feature Extractor
+## 3. BERT (Bidirectional Encoder Representations from Transformers)
+
+- **Task:** "Question → Answer" generation (typically via classification or span prediction)
+- **Input:** `[Question] + [Image Features]` (concatenated or fused as a joint representation)
+- **Output:** Text answer derived from the most relevant span or token-level prediction
+
+> **Note:** In multimodal setups (e.g., VisualBERT, LXMERT), BERT is extended to handle visual inputs by fusing image features with textual tokens. The model jointly encodes both modalities to generate the most appropriate natural language answer.
+
+
 
 ---
 
