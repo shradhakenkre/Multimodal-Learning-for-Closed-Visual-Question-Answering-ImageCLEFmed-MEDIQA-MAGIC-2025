@@ -3,7 +3,7 @@
 Welcome to repository for the **ImageCLEF VQA-Med 2025 Challenge**, where we developed a **multi-modal deep learning pipeline** to solve **medical Visual Question Answering (VQA)** for dermatological cases. This repository contains the full codebase, methodology, and training scripts for our submission.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Model-ViT%2BLBP%2BT5-blue.svg" />
+  <img src="https://img.shields.io/badge/Model-ViT%2BLBP%2BBERT-blue.svg" />
   <img src="https://img.shields.io/badge/Task-Medical%20VQA-red.svg" />
   <img src="https://img.shields.io/badge/Challenge-ImageCLEF%20VQA--Med%202025-brightgreen.svg" />
   <img src="https://img.shields.io/badge/Rank-Top%2010%25-yellow.svg" />
